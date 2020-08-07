@@ -1,8 +1,8 @@
 terraform {
     backend "azurerm"{
-      resource_group_name = "remote-state"
-      storage_account_name = "gopalterraform"
-      container_name = "tfstate"
-      key = "web.terraform.tfstate"
+      resource_group_name = "remote-rg"
+      storage_account_name = "remotestorageaccount0214"
+      container_name = "firstrt"
+      key = "web.terraform.firstrt"
     }
 }
