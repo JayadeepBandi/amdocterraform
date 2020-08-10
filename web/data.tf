@@ -1,6 +1,6 @@
 data "azurerm_key_vault" "key_vault" {
-    name = "lerntf-vault"
-    resource_group_name = "remote-state"
+    name = "az-tf-vault"
+    resource_group_name = "remote-rg"
 }
 
 data "azurerm_key_vault_secret" "admin_password"{
